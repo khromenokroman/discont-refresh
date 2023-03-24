@@ -4,7 +4,7 @@ import os
 FILE = 'Pos01.spr' #файл с данными
 FILE_FLAG = 'Pos01.flz' #файл флаг
 PATH = '/home/roma/Coding/atol-zapret-skidki' #путь до папки
-FOLDER = 'datasource'
+FOLDER = 'datasource' #папка в которой должны оказаться файлы
 FIND = ['Сигареты', 'Пиво'] # товары которые ограничить
 
 def get_data_file(path): #читаем содержимое файла
